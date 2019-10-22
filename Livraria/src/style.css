@@ -51,17 +51,23 @@ label{
 }
 /*banner */
  .banner{
-    display: flex;
+    /* display: flex; */
     margin: 0.625em auto;
+    
 }
 .banner figure{
+    /* background: tomato; */
     margin: 0 auto;
+    width: 60%;
+    
 }
 .banner figure img{
-    max-width: 37.5em;
+    width: 100%;
+    margin: 0 auto;
     align-items: center;
     border: 4px solid #1086dc;
     box-shadow: 0.3125em 0.3125em 0px #000;
+
 } 
 /* .banner{
     margin: 0 auto;
