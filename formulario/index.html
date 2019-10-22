@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="container">
+        <form action="" method="post">
+            <h1>Digite seus dados</h1>
+            <label>
+                <span>Nome: </span>
+                <input type="text" class="sec nome" name="nome" id="nome" placeholder="Digite seu nome">
+            </label>
+            <br />
+            <label>
+                <span>Sobrenome: </span>
+                <input type="text" class="sec sobreNome" name="sobreNome" id="sobreNome" placeholder="Digite seu sobrenome" required=""/>
+            </label>
+            <br />
+            <label>
+                <span>RG: </span>
+                <input type="number" class="sec rg" name="rg" id="rg" min="0" placeholder="Digite seu RG">
+            </label>
+            <br />
+            <label>
+                <span>CPF: </span>
+                <input type="number" class="sec cpf" name="cpf" id="cpf" min="0" placeholder="Digite seu CPF">
+            </label>
+            <br />
+            <label>
+                    <span>Data de Nascimento: </span><br />
+                    <input type="date" class="sec dataNascimento" name="dataNascimento" id="dataNascimento" required="">
+                </label>
+                <br />
+            <label class="outroNome sexoLabel">
+                <span class="outroNome">Sexo: </span><br />
+                <input type="radio" class="outroNome sexo" name="sexo" id="max" required=""> Masc
+                <input type="radio" class="outroNome sexo" name="sexo" id="fem" required=""> Fem
+                <input type="radio" class="outroNome sexo" name="sexo" id="outro" required="" > Outro
+            </label>
+            <br />
+            <label>
+                <span>E-mail: </span>
+                <input type="email" class="sec email" name="email" id="email" placeholder="Digite seu E-mail">
+            </label>
+            <br />
+            <label>
+                <span>Telefone de contato </span>
+                <br />
+                <span>celular: </span>
+                <input type="tel"  class="sec cel" name="tel" id="tel" placeholder="Digite seu telefone celular" required=""><br />
+                <span>Telefone fixo: </span>
+                <input type="tel" class="sec tel" name="tel" id="tel" placeholder="Digite seu telefone">
+                </label>
+            <br />
+            <label>
+                <span>Assunto: </span>
+                <input type="text" class="sec subject" name="subject" id="subject" required="" placeholder="digite um assunto">
+            </label>
+            <br />
+            
+            <label>
+                <span>Mensagem: </span><br />
+                <textarea name="mensagem" class="sec mensagem" id="" cols="25" rows="10" placeholder="Digite uma Mensagem <3"></textarea>
+            </label>
+            <br />
+            <input type="submit" value="Enviar" class="sec btn enviar">
+            <input type="reset" value="Limpar" class="sec btn reset">
+        </form>
+    </section>
+</body>
+</html>
