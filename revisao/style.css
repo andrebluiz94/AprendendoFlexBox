@@ -1,0 +1,65 @@
+body, ul ,li p{
+    font-family: sans-serif, Arial;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.2rem;
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.header{
+    flex-wrap: wrap;
+    display: flex; /*  */
+    background-color: #1d1e20;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    
+}
+
+.menu li{
+    
+    margin-left: 10px;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+   /*  background: tomato; */
+    
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: tomato;
+}
+/* 
+    flex: 1; se expande
+    flex: 1 1; se expande e fica menor, flex shrink
+    flex: 1 1 200px; significa que sempre tera a base de 200px
+
+*/
+.flex >div{/* falando direto com as divs */
+    flex:1 1 200px;/* se expande */
+}
+h1{
+    text-align: center;
+    margin-top:100px;
+}
+img{
+    max-width: 200px;
+    height: 100px;
+    
+    margin: 10px;
+    border: 2px solid #1d1e20;
+    display: block;
+}
