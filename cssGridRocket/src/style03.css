@@ -1,0 +1,39 @@
+body, html{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    background: black;
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+
+    grid-gap:5px;
+
+   /*  justify-items: center;
+    align-items: center;
+    /* align-items: end; */ 
+
+}
+
+.container > div{
+    background: #7159c1;
+    width: 50%;
+    height: 50%;
+    
+    /* justify-self: center;
+    align-self: center; */
+
+}
+
+.center{
+    justify-self: center;
+    align-self: center;
+}
