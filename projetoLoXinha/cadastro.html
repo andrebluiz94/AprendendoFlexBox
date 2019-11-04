@@ -12,7 +12,7 @@
 <body>
     <header class="header">
         <a href="index.html">LoXinha</a>
-             <input type="text" placeholder="O que seu coração deseja?">
+        <input type="search" placeholder="O que seu coração deseja?">
         <div>
             <a href="cadlogin.html"><img src="./img/Vectorusuario.svg" alt=""></a>     
             <a href="cadlogin.html"><img src="./img/shopping-cart 1cart.svg" alt=""></a>
@@ -31,63 +31,64 @@
         </nav>
     </header>
     <section class="container">
-      <form action="" method="get" class="form">
+            <h2> DADOS PESSOAIS</h2>
+      <form action="./index.html" method="get" class="form">
         
-        <h2> DADOS PESSOAIS</h2>
-        <div>
-            <input type="text" name="" id="" placeholder="NOME" required=""class="barra"/>
-        </div>
-        <div>
-        <input type="text" name="" id="" placeholder="SOBRENOME" required class="barra"/>
-        </div>
-        <div>
-        <input type="text" name="" id="" placeholder="E-MAIL" required="" class="barra">
-        </div>
-        <div>
-            <input type="password" name="" id="" placeholder="SENHA" required="" class="barra"/>
-        </div>
-        <div>
-        <input type="password" name="" id="" placeholder="CONFIRME A SENHA" required="" class="barra"/> 
-        </div>
-        <div>
-            <p><strong>Data de Nascimento:</strong></p>
-                <input class="barra" type="date" name="" id="" placeholder="DATA DE NASCIMENTO" required="">
-            </div>
         
         <div>
-                <span>Sexo:</span>
+            <input type="text" name="" id="" placeholder="NOME" required=""class="barra nome"/>
+        </div>
+        <div>
+            <input type="text" name="" id="" placeholder="SOBRENOME" required class="barra sobre"/>
+        </div>
+        <div>
+            <input type="text" name="" id="" placeholder="E-MAIL" required="" class="barra email">
+        </div>
+        <div>
+            <input type="password" name="" id="" placeholder="SENHA" required="" class="barra senha"/>
+        </div>
+        <div>
+            <input type="password" name="" id="" placeholder="CONFIRME A SENHA" required="" class="barra Csenha"/> 
+        </div>
+        
+        
+        
+        <div>
+            <input class="barra telefone" type="number" name="" id="" required placeholder="TELEFONE">
+        </div>
+        <div>
+            <input class="barra cpf" type="number" name="" id="" placeholder="CPF" required="" minlength="11" />
+        </div>
+        <div class="sexo">
+                <span>Sexo:</span><br />
                 <input type="radio" name="sex" id="" required="" class="sexy" /><label>Masculino</label>
                 <input type="radio" name="sex" id="" required="" class="sexy" /><label>Feminino</label>
-           
         </div>
         <div>
-            <input class="barra" type="number" name="" id="" required placeholder="TELEFONE">
+                <p><strong>Data de Nascimento:</strong></p>
+                <input class="barra Dnascimento" type="date" name="" id="" placeholder="DATA DE NASCIMENTO" required="">
         </div>
-        <div>
-            <input class="barra" type="number" name="" id="" placeholder="CPF" required="" min="10000000000" max="99999999999" />
-        </div>
-        
         <h2>Endereço</h2>
         <div>
-            <input class="barra" type="number" name="" id="" placeholder="CEP" min="0" max="99999999999" />
+            <input class="barra cep" type="number" name="" id="" placeholder="CEP" min="0" max="99999999999" />
         </div>
         <div>
-            <input class="barra" type="text" name="" id="" placeholder="ESTADO" />
+            <input class="barra estado" type="text" name="" id="" placeholder="ESTADO" />
         </div>
         <div>
-            <input class="barra" type="text" name="" id="" placeholder="BAIRRO" />
+            <input class="barra bairro" type="text" name="" id="" placeholder="BAIRRO" />
         </div>
         <div>
-            <input class="barra" type="text" name="" id="" placeholder="CIDADE" />
+            <input class="barra cidade" type="text" name="" id="" placeholder="CIDADE" />
         </div>
         <div>
-            <input type="number" class="barra" name="" id="" placeholder="NUMERO" />
+            <input type="number" class="barra num" name="" id="" placeholder="NUMERO" />
         </div>
         <div>
-            <input class="barra" type="text" name="" id="" placeholder="COMPLEMENTO" /><br />
+            <input class="barra comp" type="text" name="" id="" placeholder="COMPLEMENTO" /><br />
         </div>
         <div>
-            <input type="submit" value="FINALIZAR CADASTRO" class="barra" />
+            <input type="submit" value="FINALIZAR CADASTRO" class="barra submit"  />
         </div>
        </form>
     </section>

@@ -38,6 +38,7 @@ img{
 .header input{
     width: 400px;
     height: 25px;
+    padding: 15px;
     border-radius: 20px;
     border:1px solid #333;
     
@@ -62,6 +63,7 @@ img{
     background: white;
     color: #071726;
 }
+
 /* destaques */
 
 /*Footer */
